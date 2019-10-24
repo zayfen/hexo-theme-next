@@ -250,8 +250,8 @@ excerpt_description: true
 # Automatically excerpt (Not recommend).
 # Use <!-- more --> in the post to control excerpt accurately.
 auto_excerpt:
-  enable: false
-  length: 150
+  enable: true 
+  length: 200 
 
 # Read more button
 # If true, the read more button would be displayed in excerpt section.
@@ -383,7 +383,7 @@ codeblock:
   highlight_theme: normal
   # Add copy button on codeblock
   copy_button:
-    enable: false
+    enable: true 
     # Show text copy result.
     show_result: false
     # Available values: default | flat | mac
@@ -394,11 +394,11 @@ back2top:
   # Back to top in sidebar.
   sidebar: false
   # Scroll percent label in b2t button.
-  scrollpercent: false
+  scrollpercent: true 
 
 # Reading progress bar
 reading_progress:
-  enable: false
+  enable: true 
   # Available values: top | bottom
   position: top
   color: "#37c6c0"
@@ -406,7 +406,7 @@ reading_progress:
 
 # Bookmark Support
 bookmark:
-  enable: false
+  enable: true 
   # Customize the color of the bookmark.
   color: "#222"
   # If auto, save the reading progress when closing the page or clicking the bookmark-icon.
@@ -415,7 +415,7 @@ bookmark:
 
 # `Follow me on GitHub` banner in the top-right corner.
 github_banner:
-  enable: false
+  enable: true 
   permalink: https://github.com/zayfen
   title: Follow me on GitHub
 
