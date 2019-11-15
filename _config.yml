@@ -187,9 +187,9 @@ site_state: true
 # Value before `||` delimiter is the target permalink.
 # Value after `||` delimiter is the name of Font Awesome icon. If icon (with or without delimiter) is not specified, globe icon will be loaded.
 social:
-  #GitHub: https://github.com/yourname || github
-  #E-Mail: mailto:yourname@gmail.com || envelope
-  #Weibo: https://weibo.com/yourname || weibo
+  GitHub: https://github.com/zayfen || github
+  E-Mail: mailto:zhangyunfeng0101@gmail.com || envelope
+  Weibo: https://weibo.com/zayfen|| weibo
   #Google: https://plus.google.com/yourname || google
   #Twitter: https://twitter.com/yourname || twitter
   #FB Page: https://www.facebook.com/yourname || facebook
@@ -201,7 +201,7 @@ social:
 
 social_icons:
   enable: true
-  icons_only: false
+  icons_only: true 
   transition: false
 
 # Blog rolls
@@ -276,7 +276,7 @@ symbols_count_time:
   wpm: 275
 
 # Use icon instead of the symbol # to indicate the tag at the bottom of the post
-tag_icon: false
+tag_icon: true 
 
 # Wechat Subscriber
 wechat_subscriber:
@@ -288,13 +288,13 @@ wechat_subscriber:
 reward_settings:
   # If true, reward would be displayed in every article by default.
   # You can show or hide reward in a specific article throuth `reward: true | false` in Front-matter.
-  enable: false
+  enable: true 
   animation: false
   #comment: Donate comment here.
 
 reward:
-  #wechatpay: /images/wechatpay.png
-  #alipay: /images/alipay.png
+  wechatpay: /images/wechat-pay.png
+  alipay: /images/alipay.jpg
   #bitcoin: /images/bitcoin.png
 
 # Related popular posts
@@ -380,14 +380,14 @@ codeblock:
   # Code Highlight theme
   # Available values: normal | night | night eighties | night blue | night bright | solarized | solarized dark | galactic
   # See: https://github.com/chriskempson/tomorrow-theme
-  highlight_theme: normal
+  highlight_theme: solarized 
   # Add copy button on codeblock
   copy_button:
     enable: true 
     # Show text copy result.
     show_result: false
     # Available values: default | flat | mac
-    style:
+    style: mac
 
 back2top:
   enable: true
